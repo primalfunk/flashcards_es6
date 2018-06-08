@@ -1,13 +1,20 @@
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" src="/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase|Indie+Flower" rel="stylesheet">
   </head>
   <body>
-    <h1> Javascript ES6 Flash Cards</h1>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
-    <script src="/js/main.js"></script>
+    <div class="banner">
+      <h1> Javascript ES6 Flash Cards</h1>
+    </div>
+    <div class="buttons">
+      <button class="new_button" type="button">Add New Card</button>
+      <button class="edit_button" type="button">Edit Top Card</button>
+      <button class="delete_button" type="button">Delete Top Card</button>
+    </div>
+    <div class="inputarea"><textarea rows="4" cols="50">Enter text here to change the question in the top card.</textarea></div>
+    <div class="wrapper"></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

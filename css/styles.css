@@ -1,0 +1,53 @@
+body {
+  font-family: "Cormorant Unicase", sans-serif;
+  background-color: slategray;
+}
+
+.banner {
+  display: flex;
+  background-color: lightgoldenrodyellow;
+  text-align: center;
+  height: 15%;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: slategray;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  justify-items: center;
+  height: 50px;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Indie Flower", serif;
+}
+
+div[class^="card"] {
+  height: 200px;
+  width: 200px;
+  border: 2px black solid;
+  margin: 5px;
+  padding: 20px;
+  background-color: lightcyan;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputarea {
+  text-align: center;
+}
+
