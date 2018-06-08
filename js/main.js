@@ -39,7 +39,7 @@ $(document).ready(function () {
       let qaIndex = Math.floor(Math.random() * 15)
       $('.wrapper').append(`<div class=\"card${i}\"></div>`)
       $('.card' + i).append(`<p class="question">${questions[qaIndex]}</p>`)
-      $('.card' + i).append(`<p class="answer">${answers[qaIndex]}</p>`)
+      $('.card' + i).append(`<p class="answer"><strong>${answers[qaIndex]}</strong></p>`)
       $('.answer').hide()
     }
 
